@@ -11,6 +11,8 @@
         <h1>APC Calculator Value</h1>
         <div id="item-list">
             <div class="item">
+                <label for="name">Name:</label>
+                <input type="text" class="name" placeholder="Enter Name">
                 <label for="cost-price">Delivery Price:</label>
                 <input type="number" class="cost-price" placeholder="Enter Cost Price">
                 <label for="marked-price">Cost Price:</label>
@@ -22,13 +24,10 @@
         <div id="results">
             <h2>Total APC: <span id="total-apc">0</span></h2>
         </div>
+        <button id="download-btn">Download as Excel</button>
     </div>
-    <div class="container">
-        <h1>USD to NPR Converter</h1>
-        <input type="number" id="usd" placeholder="Enter amount in USD">
-        <button onclick="convertToNpr()">Convert</button>
-        <div id="result"></div>
-    </div>
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.full.min.js"></script>
     <script src="script.js"></script>
     <br><br>
 </body>
