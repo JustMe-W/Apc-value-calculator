@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APC Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>APC Calculator Value</h1>
+        <div id="item-list">
+            <div class="item">
+                <label for="cost-price">Delivery Price:</label>
+                <input type="number" class="cost-price" placeholder="Enter Cost Price">
+                <label for="marked-price">Cost Price:</label>
+                <input type="number" class="marked-price" placeholder="Enter Marked Price">
+                <button class="delete-btn">Delete</button>
+            </div>
+        </div>
+        <button id="add-item-btn">Add Item</button>
+        <div id="results">
+            <h2>Total APC: <span id="total-apc">0</span></h2>
+        </div>
+    </div>
+    <div class="container">
+        <h1>USD to NPR Converter</h1>
+        <input type="number" id="usd" placeholder="Enter amount in USD">
+        <button onclick="convertToNpr()">Convert</button>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+    <br><br>
+</body>
+</html>
