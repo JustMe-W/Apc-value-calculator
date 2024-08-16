@@ -57,6 +57,7 @@ button:hover {
 #results {
     margin-top: 20px;
     text-align: center;
+    margin: 5px;
 }
 
 #total-apc {
@@ -70,13 +71,17 @@ button:hover {
     color: #28a745;
 }
 .container {
-    max-width: 400px;
+    max-width: 1200px;
     margin: auto;
-    background: #5c0606;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
 }
 
 input[type="number"] {
@@ -100,4 +105,15 @@ button {
 
 button:hover {
     background-color: #0056b3;
+}
+.item{
+    margin: 5px;
+    padding: 2px;
+}
+
+.name{
+    margin: 2px;
+    padding: 2px;
+    font-size: 16px;
+    text-transform: capitalize;
 }
